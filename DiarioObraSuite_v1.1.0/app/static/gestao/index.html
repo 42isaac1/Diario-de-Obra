@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#102f42" />
+  <meta name="description" content="Gestor local de diários de obra" />
+  <link rel="icon" href="/gestao/icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/gestao/styles.css" />
+  <title>Diário de Obra — Gestão</title>
+</head>
+<body>
+  <div id="root"><div class="boot">Inicializando o Gestor de Diários...</div></div>
+  <script src="/vendor/react.production.min.js" onerror="this.onerror=null;this.src='https://unpkg.com/react@18.3.1/umd/react.production.min.js'"></script>
+  <script src="/vendor/react-dom.production.min.js" onerror="this.onerror=null;this.src='https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js'"></script>
+  <script>
+    if (window.React && window.ReactDOM) {
+      const script = document.createElement("script");
+      script.src = "/gestao/app.js";
+      document.body.appendChild(script);
+    } else {
+      document.getElementById("root").innerHTML = '<div class="boot"><strong>Bibliotecas do sistema não foram carregadas.</strong><br>Execute INSTALAR_E_INICIAR.bat novamente.</div>';
+    }
+  </script>
+</body>
+</html>

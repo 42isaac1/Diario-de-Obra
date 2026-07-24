@@ -1,0 +1,11 @@
+{
+  "name": "Diário de Obra - Campo",
+  "short_name": "Diário Obra",
+  "start_url": "/campo/",
+  "scope": "/campo/",
+  "display": "standalone",
+  "background_color": "#eef3f6",
+  "theme_color": "#0f3d56",
+  "lang": "pt-BR",
+  "icons": [{"src":"/campo/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

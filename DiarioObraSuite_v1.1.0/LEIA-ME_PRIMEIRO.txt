@@ -1,0 +1,23 @@
+DIÁRIO DE OBRA SUITE v1.1.0
+========================================
+
+FLUXO PRINCIPAL RECOMENDADO
+1. No computador, execute INSTALAR_E_INICIAR.bat.
+2. Cadastre obras, equipes, funcionários, atividades e veículos.
+3. Exporte a configuração e carregue-a no Aplicativo de Campo.
+4. O encarregado preenche o diário no celular, inclusive offline após a primeira abertura HTTPS.
+5. O aplicativo gera PDF + JSON + fotos em um pacote ZIP.
+6. No Gestor, importe o ZIP, confira os alertas e aprove o diário.
+
+ALTERNATIVAS INCLUÍDAS
+- PDF preenchível de contingência, importável diretamente no Gestor.
+- Integração Google Forms + Sheets + Apps Script para pilotos e terceirizados.
+- Importação direta de JSON quando necessário.
+
+INSTALAÇÃO
+- Primeira execução: INSTALAR_E_INICIAR.bat
+- Próximas execuções: INICIAR.bat
+- Validação local: VALIDAR.bat
+- Publicação da PWA: PREPARAR_CAMPO_NETLIFY.bat
+
+Consulte README.md e docs/MANUAL_OPERACIONAL.md.

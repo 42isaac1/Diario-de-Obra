@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "none",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2020"
+    ],
+    "jsx": "react",
+    "strict": true,
+    "skipLibCheck": true,
+    "outFile": "../../app/static/gestao/app.js",
+    "removeComments": false,
+    "noImplicitAny": false
+  },
+  "files": [
+    "src/types.d.ts",
+    "src/app.tsx"
+  ]
+}

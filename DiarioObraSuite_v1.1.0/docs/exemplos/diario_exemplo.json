@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.1",
+  "app_version": "1.1.0-exemplo",
+  "diario_id": "DO-20260723-OBR-001-EQ-01",
+  "revisao": 1,
+  "projeto": {
+    "id": "OBR-001",
+    "nome": "Ampliação de Subestação",
+    "cliente": "Cliente Demonstração",
+    "local": "Divinópolis/MG",
+    "contrato": "CT-2026-001",
+    "centro_custo": "CC-1001"
+  },
+  "data": "2026-07-23",
+  "equipe": {
+    "id": "EQ-01",
+    "nome": "Equipe Elétrica 01"
+  },
+  "encarregado": "João da Silva",
+  "turno_inicio": "07:00",
+  "turno_fim": "17:00",
+  "intervalo_minutos": 60,
+  "clima": "Ensolarado",
+  "equipe_presente": [
+    {
+      "funcionario_id": "FUN-001",
+      "nome": "João da Silva",
+      "funcao": "Encarregado",
+      "presente": true,
+      "horas_normais": 9,
+      "horas_extras": 0
+    },
+    {
+      "funcionario_id": "FUN-002",
+      "nome": "Carlos Souza",
+      "funcao": "Eletricista",
+      "presente": true,
+      "horas_normais": 9,
+      "horas_extras": 0
+    },
+    {
+      "funcionario_id": "FUN-004",
+      "nome": "Paulo Santos",
+      "funcao": "Ajudante",
+      "presente": true,
+      "horas_normais": 9,
+      "horas_extras": 0
+    }
+  ],
+  "atividades": [
+    {
+      "id": "A1",
+      "codigo": "ATV-001",
+      "descricao": "Montagem de eletrocalhas",
+      "local": "Sala elétrica",
+      "quantidade": 38,
+      "unidade": "m",
+      "percentual_conclusao": 70,
+      "observacao": "Trecho liberado."
+    },
+    {
+      "id": "A2",
+      "codigo": "ATV-002",
+      "descricao": "Lançamento de cabos",
+      "local": "Subestação",
+      "quantidade": 120,
+      "unidade": "m",
+      "percentual_conclusao": 35,
+      "observacao": "Sem intercorrências."
+    }
+  ],
+  "materiais": [
+    {
+      "id": "M1",
+      "descricao": "Eletrocalha 200 x 100 mm",
+      "tipo": "utilizado",
+      "quantidade": 12,
+      "unidade": "un",
+      "observacao": ""
+    }
+  ],
+  "equipamentos": [
+    {
+      "id": "E1",
+      "descricao": "Plataforma elevatória",
+      "status": "utilizado",
+      "horas": 6,
+      "observacao": ""
+    }
+  ],
+  "despesas": {
+    "cafe_manha": {
+      "quantidade": 3,
+      "valor_unitario": 8.5
+    },
+    "almoco": {
+      "quantidade": 3,
+      "valor_unitario": 25
+    },
+    "cafe_tarde": {
+      "quantidade": 3,
+      "valor_unitario": 7
+    },
+    "jantar": {
+      "quantidade": 0,
+      "valor_unitario": 0
+    },
+    "extras": [
+      {
+        "id": "D1",
+        "descricao": "Pedágio",
+        "valor": 12
+      }
+    ],
+    "abastecimento": 250,
+    "observacao": "Comprovantes anexados"
+  },
+  "deslocamento": {
+    "veiculo": "Veículo 01",
+    "placa": "ABC1D23",
+    "km_inicial": 48120,
+    "km_final": 48276,
+    "observacao": "Deslocamento obra-base"
+  },
+  "seguranca": {
+    "dds_realizado": true,
+    "apr_disponivel": true,
+    "epis_conformes": true,
+    "isolamento_area": true,
+    "permissao_trabalho": true,
+    "houve_ocorrencia": false,
+    "descricao_ocorrencia": ""
+  },
+  "impedimentos": [
+    {
+      "id": "I1",
+      "categoria": "Aguardando cliente",
+      "descricao": "Liberação parcial de acesso",
+      "impacto": "parcial",
+      "inicio": "10:00",
+      "fim": "11:30",
+      "horas_perdidas": 1.5,
+      "responsavel": "Fiscal da obra",
+      "acao_necessaria": "Liberar área B",
+      "prazo": "2026-07-24",
+      "status": "aberto"
+    }
+  ],
+  "fotos": [
+    {
+      "id": "F1",
+      "nome": "foto_exemplo.png",
+      "legenda": "Trecho de eletrocalha executado",
+      "vinculo_tipo": "atividade",
+      "vinculo_id": "A1",
+      "data_hora": "2026-07-23T15:10:00"
+    }
+  ],
+  "assinatura_encarregado": {
+    "nome": "João da Silva",
+    "funcao": "Encarregado",
+    "data_hora": "2026-07-23T17:10:00"
+  },
+  "observacoes_gerais": "Diário de demonstração para validação da importação.",
+  "status": "finalizado",
+  "finalizado_em": "2026-07-23T17:10:00",
+  "origem": "exemplo_distribuicao"
+}
